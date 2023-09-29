@@ -1,0 +1,23 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.conteiner {
+  min-height: 100vh;
+  background: #eee;
+}
+
+.post {
+  background: #fff;
+  box-shadow: 0 0 10px rgb(0,0,0, 0.3);
+}
+
+.post-content {
+  padding: 30px;
+}
+
+.post img {
+  max-width: 100%;
+}
