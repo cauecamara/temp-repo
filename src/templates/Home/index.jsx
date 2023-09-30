@@ -13,7 +13,7 @@ class Home extends Component {
       postsPerPage: 2,
       serchValue: ''
     }
-
+//
     async componentDidMount() {
         await this.loadPost()
     }
